@@ -1,5 +1,5 @@
-from pyrogram import MongoClient
-from pyrogram.errors import DuplicateKeyError
+
+
 from pyrogram.types import CallbackQuery
 from config import Config
 from __init__ import LOGGER, MERGE_MODE
