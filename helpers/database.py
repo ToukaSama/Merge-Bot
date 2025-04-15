@@ -7,10 +7,9 @@ from __init__ import LOGGER, MERGE_MODE
 
 class Database(object):
     
+
+
     
-
-
-async def addUser(uid, fname, lname):
     try:
         userDetails = {
             "_id": uid,
