@@ -19,7 +19,7 @@ class Database(object):
         LOGGER.info(f"New user added id={uid}\n{fname} {lname} \n")
     except DuplicateKeyError:
         LOGGER.info(f"Duplicate Entry Found for id={uid}\n{fname} {lname} \n")
-    return
+    
 
 
 async def broadcast():
