@@ -23,8 +23,7 @@ class Database(object):
 
 
 
-    a = Database.mergebot.mergeSettings.find({})
-    return a
+
 
 
 async def allowUser(uid, fname, lname):
