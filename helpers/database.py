@@ -17,12 +17,12 @@ class Database(object):
         }
         Database.mergebot.users.insert_one(userDetails)
         LOGGER.info(f"New user added id={uid}\n{fname} {lname} \n")
-    except 
+    
         LOGGER.info(f"Duplicate Entry Found for id={uid}\n{fname} {lname} \n")
     
 
 
-async def broadcast():
+
     a = Database.mergebot.mergeSettings.find({})
     return a
 
