@@ -7,7 +7,7 @@ from __init__ import LOGGER, MERGE_MODE
 
 class Database(object):
     
-    mergebot = client.MergeBot
+    
 
 
 async def addUser(uid, fname, lname):
