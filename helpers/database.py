@@ -6,7 +6,7 @@ from __init__ import LOGGER, MERGE_MODE
 
 
 class Database(object):
-    client = MongoClient(Config.DATABASE_URL)
+    
     mergebot = client.MergeBot
 
 
